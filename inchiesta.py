@@ -1,8 +1,8 @@
 import telepot
 from telepot.loop import MessageLoop
 
-TOKEN=input("TOKEN")
-USER=input("USER")
+TOKEN="6904387238:AAFFchGIkrwC6obvU39ipq-VxP0yd7oJq5Y"
+USER="49317077"
 
 class TelegramBot:
     def __init__(self):
@@ -23,8 +23,8 @@ class TelegramBot:
 
             if text.lower() == '/start':
                 self.registered_users[user_id] = username
-                self.bot.sendMessage(chat_id, "Comunica con la banana")
-                self.bot.sendMessage(chat_id, "Invia un messaggio o una foto agli amministratori")
+                self.bot.sendMessage(chat_id, "Invia documenti o informazioni agli amministratori")
+                self.bot.sendMessage(chat_id, "Invia un messaggio, documenti o testo")
 
 
             else:
