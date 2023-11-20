@@ -1,8 +1,8 @@
 import telepot
 from telepot.loop import MessageLoop
 
-TOKEN="6864572073:AAExyBw0PJzALi1NLP0ekPoZXHCCp8uUr88"
-USER="49317077"
+TOKEN=input("Token")
+USER=input("User")
 
 class TelegramBot:
     def __init__(self):
